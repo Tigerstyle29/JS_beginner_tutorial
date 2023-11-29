@@ -20,10 +20,29 @@ let my-num = 1 // переменная через дефис
 let const // зарезервированные слова 
 */
 
-firstName = 'Nane'
+// firstName = 'Nane'
 // isProgrammer = false // error because of const
 
 // вывод результатов
 
 // alert(firstName)
 // console.log('Test:', num, isProgrammer)
+
+// console.log(num + 10)
+// console.log(num - 10)
+// console.log(num * 10)
+// console.log(num / 10)
+// console.log(num)
+
+// let num2 = num + 10
+// console.log(num, num2)
+// num = num2 - num
+// num2 = num2 + 1
+// console.log(num, num2)
+
+// let num3 = (num + 10 * 2) / (5 - 1) 
+// console.log(num3)
+
+// const fullName = firstName + ' Vartanyan'
+const fullName = firstName + ' ' + 'Vartanyan'
+console.log(fullName)
