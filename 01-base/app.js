@@ -1,6 +1,6 @@
-let num = 42 
-let firstName = 'Tigran'
-const isProgrammer = true
+// let num = 42 
+// let firstName = 'Tigran'
+// const isProgrammer = true
 
 /* Can do
 let $ = 'test'
