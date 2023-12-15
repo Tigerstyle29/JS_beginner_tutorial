@@ -125,7 +125,7 @@ listElement.onclick = function (event) {
         const type = event.target.dataset.type
 
         if (type === 'toggle') {
-            notes[index].completed = !notes[index.completed]
+            notes[index].completed = !notes[index].completed
         } else if (type === 'remove') {
             notes.splice(index, 1)
         }
@@ -148,8 +148,7 @@ function getNoteTemplate(note, index) {
                         note.completed ? 'warning' : 'success' 
                     }" data-index="${index}" data-type="toggle">&check;</span>
                     <span class="btn btn-small btn-danger" data-type="remove" 
-                    data-index="${index}">&times;
-                </span>
+                    data-index="${index}">&times;</span>
             </span>
         </li> 
     `
