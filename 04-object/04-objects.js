@@ -73,3 +73,31 @@ const logger = {
 // bound(false)
 // logger.keys.call(person, false)
 // logger.keys.apply(person, [false])
+
+class Human {
+    static isHuman = true
+
+    humanGreet() {
+        console.log('greet from human')
+    }
+    toString() {
+        console.log('to string')
+    }
+}
+
+class Person extends Human {
+    constructor(name, age) {
+        super()
+        this.name = name ?? 'Undefined name'
+        this.age = age ?? 'Undefined age'
+    }
+
+    sayHello() {
+        console.log('Hello from ', this.name)
+    }
+}
+
+const person1 = new Person('Tigran', 30)
+const person2 = new Person('Elena', 21)
+
+// console.log(Person.isHuman)
