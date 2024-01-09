@@ -1,1 +1,1 @@
-# calculator_js
+# JS_beginner_tutorial
